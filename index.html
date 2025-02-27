@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-      
+
     <div class="container">
         <h1>Calculator in JavaScript</h1>
-        <div class="box1"></div>
+        <div class="box1">
+            <input type="text" />
+        </div>
         <div class="box2">
-            <div class="numbers">
-                
-                <button>9</button>
-                <button>8</button>
-                <button>7</button>
+
+
+            <button onclick="addInput('9')">9</button>
+            <button onclick="addInput('8')">8</button>
+            <button onclick="addInput('7')">7</button>
+            <button onclick="allClear()">AC</button>
+            <button onclick="addInput('6')">6</button>
+            <button onclick="addInput('5')">5</button>
+            <button onclick="addInput('4')">4</button>
+            <button onclick="addInput('*')">x</button>
+            <button onclick="addInput('3')">3</button>
+            <button onclick="addInput('2')">2</button>
+            <button onclick="addInput('1')">1</button>
+            <button onclick="addInput('/')">/</button>
+            <button onclick="addInput('0')">0</button>
+            <button onclick="addInput('+')">+</button>
+            <button onclick="addInput('-')">-</button>
+            <button onclick="showResult()">=</button>
+
             
-                <button>6</button>
-                <button>5</button>
-                <button>4</button>
-                <button>3</button>
-                <button>2</button>
-                <button>1</button>
-                <button>0</button>
-            </div>
-            <div class="symbols">
-                <button>+</button>
-                <button>-</button>
-                <button>*</button>
-                <button>/</button>
-                <button>=</button>
-            </div>
+
+
         </div>
 
     </div>
-        
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
